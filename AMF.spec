@@ -1,10 +1,10 @@
 Name:           AMF
 Version:        1.4.24
-Release:        0
+Release:        1
 Summary:        Advanced Media Framework (AMF) SDK
 License:        MIT
 URL:            https://gpuopen.com/advanced-media-framework/
-Source:         %{name}-%{version}.tar
+Source:         https://github.com/GPUOpen-LibrariesAndSDKs/AMF/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 
 %description
@@ -33,7 +33,7 @@ This package contains additional documentation provided for the
 Advanced Media Framework (AMF) SDK.
 
 %prep
-%setup -q
+%autosetup -p4
 
 %build
 
