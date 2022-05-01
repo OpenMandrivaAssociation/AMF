@@ -14,6 +14,7 @@ AMDGPU-Pro driver.
 
 %package        devel
 Summary:        Development files for %{name}
+Provides:        amf-devel
 Suggests:       AMF-docs
 
 %description    devel
@@ -33,7 +34,7 @@ This package contains additional documentation provided for the
 Advanced Media Framework (AMF) SDK.
 
 %prep
-%autosetup -p4
+%autosetup -p1
 
 %build
 
