@@ -1,5 +1,5 @@
 Name:           AMF
-Version:        1.4.26
+Version:        1.4.28
 Release:        1
 Summary:        Advanced Media Framework (AMF) SDK
 License:        MIT
