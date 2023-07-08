@@ -1,6 +1,6 @@
 Name:           AMF
-Version:        1.4.29
-Release:        2
+Version:        1.4.30
+Release:        1
 Summary:        Advanced Media Framework (AMF) SDK
 License:        MIT
 URL:            https://gpuopen.com/advanced-media-framework/
