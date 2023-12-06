@@ -1,5 +1,5 @@
 Name:           AMF
-Version:        1.4.30
+Version:        1.4.32
 Release:        1
 Summary:        Advanced Media Framework (AMF) SDK
 License:        MIT
@@ -14,7 +14,7 @@ AMDGPU-Pro driver.
 
 %package        devel
 Summary:        Development files for %{name}
-Provides:        amf-devel
+Provides:       amf-devel
 Suggests:       AMF-docs
 
 %description    devel
