@@ -1,5 +1,5 @@
 Name:           AMF
-Version:        1.4.32
+Version:        1.4.33
 Release:        1
 Summary:        Advanced Media Framework (AMF) SDK
 License:        MIT
@@ -10,7 +10,7 @@ BuildArch:      noarch
 %description
 A lightweight, portable multimedia framework that abstracts away most of the
 platform and API-specific details. %{name} is supported on the closed-source
-AMDGPU-Pro driver.
+AMDGPU-Pro driver and on open-source mesa RADV.
 
 %package        devel
 Summary:        Development files for %{name}
@@ -20,7 +20,7 @@ Suggests:       AMF-docs
 %description    devel
 A lightweight, portable multimedia framework that abstracts away most of the 
 platform and API-specific details. %{name} is supported on the closed-source           
-AMDGPU-Pro driver.
+AMDGPU-Pro driver and on open-source mesa RADV.
 
 The %{name}-devel package contains header files for developing
 applications that use %{name}.
